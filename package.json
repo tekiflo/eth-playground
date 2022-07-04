@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "sender-from-tx": "tsc && node build/sender-from-tx.js",
+    "gen-data": "tsc && node build/gen-data.js",
     "test": "jest",
     "lint": "eslint \"**/*.{ts,tsx}\""
   },
